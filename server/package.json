@@ -1,0 +1,14 @@
+{
+  "name": "capstone-project",
+  "version": "1.0.0",
+  "description": "The Note Bucket provides you one safe place to save  all your notes.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Velmurgan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
