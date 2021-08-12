@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  Button,
   Container,
   Form,
   FormControl,
@@ -28,16 +27,11 @@ function Header() {
           </Nav>
           <Nav style={{ maxHeight: "100px" }} navbarScroll>
             <Nav.Link href="#action1">My Notes</Nav.Link>
-
             <NavDropdown title="Velmurgan Pillai" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">My Profile</NavDropdown.Item>
-
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action5">Logout</NavDropdown.Item>
             </NavDropdown>
-            {/* <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
