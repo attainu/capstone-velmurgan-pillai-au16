@@ -26,11 +26,11 @@ function Header() {
             </Form>
           </Nav>
           <Nav style={{ maxHeight: "100px" }} navbarScroll>
-            <Nav.Link href="#action1">My Notes</Nav.Link>
+            <Nav.Link href="/allNotes">My Notes</Nav.Link>
             <NavDropdown title="Velmurgan Pillai" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">My Profile</NavDropdown.Item>
+              <NavDropdown.Item href="/profile">My Profile</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">Logout</NavDropdown.Item>
+              <NavDropdown.Item href="/logout">Logout</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
