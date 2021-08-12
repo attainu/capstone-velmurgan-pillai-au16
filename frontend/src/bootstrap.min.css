@@ -4401,14 +4401,14 @@ input[type="submit"].btn-block {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: rgb(5, 5, 5);
 }
 .navbar-dark .navbar-brand:focus,
 .navbar-dark .navbar-brand:hover {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(5, 5, 5);
 }
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -6212,13 +6212,13 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 .bg-primary {
-  background-color: #158cba !important;
+  background-color: #c69168 !important;
 }
 a.bg-primary:focus,
 a.bg-primary:hover,
 button.bg-primary:focus,
 button.bg-primary:hover {
-  background-color: #106a8c !important;
+  background-color: #8c6510 !important;
 }
 .bg-secondary {
   background-color: #f0f0f0 !important;
@@ -9492,7 +9492,7 @@ a.text-dark:hover {
   border-width: 0 1px 4px 1px;
 }
 .bg-primary {
-  border-color: #127ba3;
+  border-color: #c69168;
 }
 .bg-dark {
   border-color: #484848;
